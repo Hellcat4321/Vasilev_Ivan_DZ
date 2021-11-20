@@ -6,5 +6,4 @@ if a == 5:
 else:
     b = 11+1.66
 print("Hello World!")
-print("Hello World!")
 print(b)
