@@ -1,5 +1,4 @@
 a = input("Enter the first number = ")
-
 b = input("Enter the second number = ")
 
 print("Результат сложения двух чисел = {}".format(float(a)+float(b)))
