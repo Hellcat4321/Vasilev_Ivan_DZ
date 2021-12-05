@@ -18,8 +18,7 @@ def passwords(a):
             if 'password' in d : #Проверка на подстраку "password" в любом регистре!
                 return('False!')
             else:
-                return('True!')
-                
+                return('True!')       
     else:
         return('False!')
             
