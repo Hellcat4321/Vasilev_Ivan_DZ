@@ -4,7 +4,7 @@ def fibonacci(a):
     if a in (1, 2):
         return 1
     if a < 0:
-        return fibonacci(a + 2) -- fibonacci(a + 1) #Для отрицательных чисел
+        return fibonacci(a + 2) - fibonacci(a + 1) #Для отрицательных чисел
     return fibonacci(a - 1) + fibonacci(a - 2)  #Для положительных чисел
 
 try:
