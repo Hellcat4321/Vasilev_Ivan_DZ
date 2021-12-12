@@ -1,10 +1,11 @@
 import random
 
-a =set()
-b =set()
+a = set()
+b = set()
 for i in range(0, 10):
-    a.add(random.randint(0,20))
-    b.add(random.randint(0,20))
+    a.add(random.randint(0, 20))
+    b.add(random.randint(0, 20))
+    
 print('Первое множество: {}'.format(a))
 print('Второе множество: {}'.format(b))
 print('Элементы, которые входят одновременно в оба: {}'.format(a.intersection(b)))

@@ -31,5 +31,13 @@ def passwords(a):
                 return('True!')       
     else:
         return('False!')
-            
-print(passwords(a = input()))
+
+def summar(*arge):
+    """Функция суммирует все элементы,
+    которые в неё входят. 
+    """
+    try: 
+        return sum(arge)
+    except TypeError:
+        print('Должны быть введены числа!')
+        return 
